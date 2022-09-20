@@ -93,7 +93,7 @@ body {
 }
 
 .main-title {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .project-container {
@@ -112,14 +112,21 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
     margin-bottom: 20px;
+    font-size: 15px;
     
+}
+
+#project-screenshot {
+    width: 250px;
+    height: 130px;
+    border: 1px solid #000;
 }
 
 .project-icons {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 10px 0px 10px 0px;
+    padding-bottom: 10px;
 }
 .project-icons img {
     width: 15px;
