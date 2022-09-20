@@ -1,0 +1,170 @@
+/*
+Color Scheme:
+Option 2:
+#FFFFFF - white (background)
+#FAFAFA - very light grey (boxes)
+#8B96FF - dark purple
+#C394FD - light purple
+#F8B4E7 - pink
+#FFB5B5 - coral
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+    margin: 0;
+    background: linear-gradient(180deg, #8B96FF, #C394FD, #F8B4E7, #FFB5B5);
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    width: calc(100vw - 20px);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 60% 24%;
+    grid-template-rows: 100%;
+    grid-gap: 18px;
+    grid-template-areas:
+        "sidebar content header"
+
+}
+
+/* SIDEBAR STYLING STARTS HERE */
+
+.sidebar {
+    background-color: #f9f9f9;
+    grid-area: sidebar;
+    border-radius: 10px;
+    margin: 15px 0px 15px 15px;
+}
+
+.sidebar-logo {
+    text-align: center;
+}
+
+.sidebar li:hover {
+    text-decoration: underline;
+}
+
+.sidebar li img {
+    padding-right: 10px;
+}
+
+.sidebar-main-links li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.sidebar-settings-links li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 20px;
+    
+}
+
+/* MAIN STYLING STARTS HERE */
+
+.main {
+    text-align: center;
+    background-color: #f9f9f9;
+    grid-area: content;
+    border-radius: 10px;
+    margin: 15px 0px 15px 0px;
+}
+
+.main-search {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.main-search input {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    margin-left: 10px;
+    border: 2px solid #8B96FF;
+    border-radius: 5px;
+}
+
+.main-title {
+    padding-bottom: 20px;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+}
+
+.project-card {
+    width: 300px;
+    height: auto;
+    border-left: 10px solid #C394FD;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
+    margin-bottom: 20px;
+    
+}
+
+.project-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.project-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+/* HEADER STYLING STARTS HERE */
+
+.header {
+    background-color: #f9f9f9;
+    grid-area: header;
+    border-radius: 10px;
+    margin: 15px 15px 15px 0px;
+    text-align: center;
+}
+
+#user-pic {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.header-welcome-text {
+    line-height: 0%;
+    padding-bottom: 10px;
+}
+
+.header-welcome-location {
+    color: #A4A4A4;
+    line-height: 0%;
+    font-weight: 400;
+}
+
+.header-btn {
+    background-color: #F8B4E7;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    width: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+

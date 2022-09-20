@@ -4,47 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>Project Management Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
    <nav class="sidebar">
       <div class="sidebar-logo">
-        <h1><img src="/">Dashboard</h1>
+        <h1><img src="/admin-dashboard/images/pie-chart.png" alt="" width="30px" height="30px"><br>Dashboard</h1>
       </div>
       <div class="sidebar-main-links">
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
+            <li><img src="/admin-dashboard/images/home.png" alt="" width="20px" height="20px">Home</li>
+            <li><img src="/admin-dashboard/images/user.png" alt="" width="20px" height="20px">Profile</li>
+            <li><img src="/admin-dashboard/images/chat.png" alt="" width="20px" height="20px">Messages</li>
+            <li><img src="/admin-dashboard/images/history.png" alt="" width="20px" height="20px">History</li>
+            <li><img src="/admin-dashboard/images/to-do-list.png" alt="" width="20px" height="20px">Tasks</li>
+            <li><img src="/admin-dashboard/images/love.png" alt="" width="20px" height="20px">Community</li>
       </div>
+      <br>
       <div class="sidebar-settings-links">
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
+            <li><img src="/admin-dashboard/images/settings.png" alt="" width="20px" height="20px">Settings</li>
+            <li><img src="/admin-dashboard/images/headphones.png" alt="" width="20px" height="20px">Support</li>
+            <li><img src="/admin-dashboard/images/privacy.png" alt="" width="20px" height="20px">Privacy</li>
       </div>
    </nav>
-   <header class="header">
-    <div class="header-search">
-        <label class="header-search-icon" for="search"><img src="/"></label>
-        <input class="header-search-bar" type="search">
+
+   <div class="main">
+    <div class="projects">
+        <div class="main-search">
+            <label class="header-search-icon" for="search"><img src="/admin-dashboard/images/magnifying-glass.png" alt="" width="25px" height="25px"></label>
+            <input class="header-search-bar" type="search" placeholder="search by project name">
+        </div>
+        <h1 class="main-title">Your Projects</h1>
+        <div class="project-container">
+        <div class="project-card">
+            <h3 class="project-title">Landing Page</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Rock, Paper, Scissors</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Etch-A-Sketch</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Calculator</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Registration Form</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Admin Dashboard</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Library</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Tic Tac Toe</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3 class="project-title">Restaurant Page</h3>
+            <p class="project-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi quibusdam facilis consectetur impedit totam.</p>
+            <div class="project-icons">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+                <img src="/admin-dashboard/images/share.png" alt="">
+            </div>
+        </div>
+
     </div>
-    <div class="header-profile">
-        <button class="header-profile-btn"><img src="/"></button>
-        <img class="header-profile-img" src="/" alt="">
-        <p class="header-profile-text">Mia Rothman</p>
-    </div>
+  </div>
+</div>
+
+   <div class="header">
     <div class="header-welcome">
-        <img src="" alt="">
+        <img id="user-pic" src="/admin-dashboard/images/man.png" alt="">
         <div class="header-welcome-container">
-            <p class="header-welcome-text">Hi there,</p>
-            <p class="header-welcome-user">Mia Rothman (@mia)</p>
+            <h2 class="header-welcome-text">Mia Rothman</h2>
+            <h4 class="header-welcome-location">Montreal, Canada</h4>
         </div>
     </div>
     <div class="header-buttons">
@@ -52,15 +144,9 @@
         <button class="header-btn">Upload</button>
         <button class="header-btn">Share</button>
     </div>
-   </header>
+</div>
 
-<!--
-   <main class="main">
-    <section class="projects">
-
-    </section>
-   </main>
--->
+</div>
 </body>
 <style src="main.js"></style>
 </html>
