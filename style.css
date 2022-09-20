@@ -119,10 +119,12 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
 }
 .project-icons img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
 }
 
 /* HEADER STYLING STARTS HERE */
