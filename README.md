@@ -7,7 +7,6 @@ Live Demo: https://miarothman.github.io/admin-dashboard/
 Built Using:
 - HTML5
 - CSS3
-- JavaScript
 
 Screenshot:
 <img src="images/project-card/screenshot6.png">
