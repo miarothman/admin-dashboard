@@ -68,7 +68,9 @@ body {
     
 }
 
-
+.troubleshoot {
+    justify-content: flex-end;
+}
 
 /* MAIN STYLING STARTS HERE */
 
@@ -141,7 +143,7 @@ body {
     box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
     margin-bottom: 20px;
     font-size: 15px;
-    
+    background-color: rgba(239, 239, 240, 1);
 }
 
 #project-screenshot {
@@ -183,12 +185,6 @@ body {
     padding-bottom: 10px;
 }
 
-.header-welcome-location {
-    color: #A4A4A4;
-    line-height: 0%;
-    font-weight: 400;
-}
-
 .header-icons {
     display: flex;
     flex-direction: row;
@@ -207,8 +203,118 @@ body {
     height: 30px;
 }
 
+.header-tasks {
+    display: flex;
+    justify-content: center;
+}
 
+.tasks-table table {
+    font-size: 14px;
+    text-align: left;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
+    border-radius: 5px;
+    padding: 2px;
+}
 
+th {
+    background-color: #F8B4E7;
+}
+
+#task-done, #task-todo, #task-progress {
+    border-radius: 10px;
+    color: #000;
+    font-size: 11px;
+}
+
+#task-done {
+    background-color: #F8B4E7;
+}
+
+#task-progress {
+    background-color: #FFB5B5;
+}
+
+#task-todo {
+    background-color: #8B96FF;
+}
+
+/* CALENDAR STARTS HERE */
+.header-calendar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendar {
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
+    width: 380px;
+    height: 455px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal-title {
+    line-height: 0px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.today {
+    box-shadow: 0px 0px 5px rgb(31, 31, 31, 0.5);
+    text-align: left;
+    background-color: #F8B4E7;
+    width: 300px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.today-title {
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.today-date-add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.events {
+    padding-left: 30px;
+    text-align: left;
+    width: 360px;
+    font-size: 14px;
+    line-height: 5px;
+}
+
+.events-title {
+    line-height: 0px;
+    font-size: 16px;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.events-time {
+    font-size: 15px;
+    font-weight: 600;
+    color: #8B96FF;
+}
+
+.events-p {
+    font-size: 12px;
+}
 
 
 
